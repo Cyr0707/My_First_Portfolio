@@ -7,43 +7,66 @@
 </head>
 <body>
 
-    <!-- Level 1 Heading -->
-    <h1>Mastering the Basic HTML Structure</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- First Paragraph -->
-    <p>
-        Welcome to your first feature-complete HTML document! This page serves as a foundation for all future web development projects. By ensuring the correct structure—including the DOCTYPE, the html tag with a language attribute, and the head section with character encoding—we guarantee maximum compatibility and accessibility across all modern browsers. Validity is key to professional development.
-    </p>
+    <main>
+        <article>
+            <!-- Level 1 Heading -->
+            <h1>Mastering the Basic HTML Structure</h1>
 
-    <!-- Level 2 Heading -->
-    <h2>Core Components of a Webpage</h2>
+            <!-- First Paragraph -->
+            <p>
+                Welcome to your first feature-complete HTML document! This page serves as a foundation for all future web development projects. By ensuring the correct structure—including the DOCTYPE, the html tag with a language attribute, and the head section with character encoding—we guarantee maximum compatibility and accessibility across all modern browsers. Validity is key to professional development.
+            </p>
 
-    <!-- Second Paragraph -->
-    <p>
-        The two main sections of any HTML document are the <code>&lt;head&gt;</code> and the <code>&lt;body&gt;</code>. The head contains essential metadata, such as the page title, links to stylesheets, and important character set declarations (like UTF-8). None of the content inside the head is directly visible to the user on the screen.
-    </p>
+            <!-- Level 2 Heading -->
+            <h2>Core Components of a Webpage</h2>
 
-    <!-- Level 3 Heading -->
-    <h3>The Importance of Semantic Tags</h3>
+            <!-- Second Paragraph -->
+            <p>
+                The two main sections of any HTML document are the <code>&lt;head&gt;</code> and the <code>&lt;body&gt;</code>. The head contains essential metadata, such as the page title, links to stylesheets, and important character set declarations (like UTF-8). None of the content inside the head is directly visible to the user on the screen.
+            </p>
 
-    <!-- Third Paragraph -->
-    <p>
-        In the <code>&lt;body&gt;</code>, we use semantic tags to structure the content logically. Tags like <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, and <code>&lt;h3&gt;</code> define hierarchical headings, while <code>&lt;p&gt;</code> defines standard text paragraphs. Using the correct hierarchy for headings (starting with <code>&lt;h1&gt;</code> and descending sequentially) is crucial for both SEO and screen reader accessibility.
-    </p>
+            <!-- Level 3 Heading -->
+            <h3>The Importance of Semantic Tags</h3>
 
-    <!-- Fourth Paragraph -->
-    <p>
-        Finally, interactive elements like clickable images combine the <code>&lt;a&gt;</code> (anchor/link) tag with the <code>&lt;img&gt;</code> (image) tag. This allows the user to click on a visual element and be redirected to a new web location, making the page dynamic and connected to the wider internet. This element is demonstrated below.
-    </p>
+            <!-- Third Paragraph -->
+            <p>
+                In the <code>&lt;body&gt;</code>, we use semantic tags to structure the content logically. Tags like <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, and <code>&lt;h3&gt;</code> define hierarchical headings, while <code>&lt;p&gt;</code> defines standard text paragraphs. Using the correct hierarchy for headings (starting with <code>&lt;h1&gt;</code> and descending sequentially) is crucial for both SEO and screen reader accessibility.
+            </p>
 
-    <!-- Clickable Image -->
-    <!-- The <a> tag wraps the <img> tag to make the image a clickable link -->
-    <a href="https://www.google.com" target="_blank" title="Click to visit Google">
-        <img 
-            src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" 
-            alt="ALX Logo - Clickable Link"
-        >
-    </a>
-    
+            <!-- Fourth Paragraph -->
+            <p>
+                Finally, interactive elements like clickable images combine the <code>&lt;a&gt;</code> (anchor/link) tag with the <code>&lt;img&gt;</code> (image) tag. This allows the user to click on a visual element and be redirected to a new web location, making the page dynamic and connected to the wider internet. This element is demonstrated below.
+            </p>
+            
+            <!-- Link to the Tweets Page -->
+            <p>
+                <a href="tweets.html">Click here to see my embedded tweets!</a>
+            </p>
+
+            <!-- Clickable Image -->
+            <!-- The <a> tag wraps the <img> tag to make the image a clickable link -->
+            <a href="https://www.google.com" target="_blank" title="Click to visit Google">
+                <img 
+                    src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" 
+                    alt="ALX Logo - Clickable Link"
+                >
+            </a>
+        </article>
+
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <footer><p>Made by Cyrus</p></footer>
 </body>
 </html>
